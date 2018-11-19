@@ -1,0 +1,1370 @@
+---------------------------------------------------------------
+[ 2018-10-25T10:15:24+08:00 ] ::1 GET localhost/tpcms/public/
+[运行时间：0.752043s] [吞吐率：1.33req/s] [内存消耗：1,563.87kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-10-25T10:15:26+08:00 ] ::1 GET localhost/tpcms/public/admin
+[运行时间：0.123007s] [吞吐率：8.13req/s] [内存消耗：1,362.20kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-10-25T10:15:40+08:00 ] ::1 GET localhost/tpcms/public/index.php/admin
+[运行时间：0.499029s] [吞吐率：2.00req/s] [内存消耗：2,699.48kb] [文件加载：86]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\tpl/dispatch_jump.tpl [ array (
+  0 => 'Config',
+  1 => 'code',
+  2 => 'msg',
+  3 => 'data',
+  4 => 'url',
+  5 => 'wait',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020001s ] mysql:host=127.0.0.1;dbname=yzncms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_adminlog` [ RunTime:0.048003s ]
+[ sql ] [ SQL ] INSERT INTO `yzn_adminlog` (`uid` , `status` , `info` , `get` , `ip` , `create_time`) VALUES (0 , 0 , '提示语:请先登陆' , '/tpcms/public/index.php/admin' , 0 , 1540433740) [ RunTime:0.012001s ]
+---------------------------------------------------------------
+[ 2018-10-25T10:15:42+08:00 ] ::1 GET localhost/tpcms/public/index.php/admin/index/login.html
+[运行时间：0.105006s] [吞吐率：9.52req/s] [内存消耗：1,942.41kb] [文件加载：78]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\tpcms\application\admin\view\index\login.html [ array (
+  0 => 'Config',
+) ]
+---------------------------------------------------------------
+[ 2018-10-25T10:15:42+08:00 ] ::1 GET localhost/tpcms/public/index.php/api/checkcode/getverify/font_size/18/imageW/130/imageH/38.html
+[运行时间：0.287016s] [吞吐率：3.48req/s] [内存消耗：1,643.44kb] [文件加载：66]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/admin/index/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'font_size' => '18',
+  'imageW' => '130',
+  'imageH' => '38',
+)
+---------------------------------------------------------------
+[ 2018-10-25T10:15:53+08:00 ] ::1 POST localhost/tpcms/public/index.php/admin/index/login.html
+[运行时间：0.133008s] [吞吐率：7.52req/s] [内存消耗：2,684.14kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/admin/index/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+  'verify' => 'vhxt',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=yzncms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.035002s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `yzn_admin`  SET `last_login_time` = 1540433753 , `last_login_ip` = 0  WHERE  `userid` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_adminlog` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] INSERT INTO `yzn_adminlog` (`uid` , `status` , `info` , `get` , `ip` , `create_time`) VALUES (1 , 1 , '提示语:恭喜您，登陆成功' , '/tpcms/public/index.php/admin/index/login.html' , 0 , 1540433753) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-25T10:15:55+08:00 ] ::1 GET localhost/tpcms/public/index.php/admin/index/index.html
+[运行时间：0.212012s] [吞吐率：4.72req/s] [内存消耗：2,864.95kb] [文件加载：86]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/admin/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\tpcms\application\admin\view\index\index.html [ array (
+  0 => 'Config',
+  1 => 'userInfo',
+  2 => 'SUBMENU_CONFIG',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=yzncms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_menu` [ RunTime:0.023001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_menu` WHERE  `parentid` = 0  AND `status` = 1 ORDER BY `listorder` ASC,`id` ASC [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_menu` WHERE  `parentid` = 3  AND `status` = 1 ORDER BY `listorder` ASC,`id` ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_menu` WHERE  `parentid` = 10  AND `status` = 1 ORDER BY `listorder` ASC,`id` ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_menu` WHERE  `parentid` = 11  AND `status` = 1 ORDER BY `listorder` ASC,`id` ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_menu` WHERE  `parentid` = 13  AND `status` = 1 ORDER BY `listorder` ASC,`id` ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_menu` WHERE  `parentid` = 14  AND `status` = 1 ORDER BY `listorder` ASC,`id` ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_menu` WHERE  `parentid` = 23  AND `status` = 1 ORDER BY `listorder` ASC,`id` ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_menu` WHERE  `parentid` = 15  AND `status` = 1 ORDER BY `listorder` ASC,`id` ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_menu` WHERE  `parentid` = 16  AND `status` = 1 ORDER BY `listorder` ASC,`id` ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_menu` WHERE  `parentid` = 17  AND `status` = 1 ORDER BY `listorder` ASC,`id` ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_menu` WHERE  `parentid` = 20  AND `status` = 1 ORDER BY `listorder` ASC,`id` ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_menu` WHERE  `parentid` = 5  AND `status` = 1 ORDER BY `listorder` ASC,`id` ASC [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-25T10:15:55+08:00 ] ::1 GET localhost/tpcms/public/index.php/admin/main/index.html
+[运行时间：0.119006s] [吞吐率：8.40req/s] [内存消耗：2,728.61kb] [文件加载：83]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\tpcms\application\admin\view\main\index.html [ array (
+  0 => 'Config',
+  1 => 'userInfo',
+  2 => 'sys_info',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=yzncms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT VERSION() as version [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-10-25T10:15:59+08:00 ] ::1 GET localhost/tpcms/public/index.php/admin/manager/index/menuid/16.html
+[运行时间：0.213013s] [吞吐率：4.69req/s] [内存消耗：2,735.62kb] [文件加载：83]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '16',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\tpcms\application\admin\view\manager\index.html [ array (
+  0 => 'Config',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=yzncms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.066004s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-25T10:16:00+08:00 ] ::1 GET localhost/tpcms/public/index.php/admin/manager/index.html?page=1&limit=10
+[运行时间：0.181010s] [吞吐率：5.52req/s] [内存消耗：2,667.84kb] [文件加载：81]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/admin/manager/index/menuid/16.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=yzncms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` ORDER BY `userid` ASC [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_auth_group` [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT `title` FROM `yzn_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `title` FROM `yzn_auth_group` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `title` FROM `yzn_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-10-25T10:16:00+08:00 ] ::1 GET localhost/tpcms/public/index.php/admin/adminlog/index/menuid/20.html
+[运行时间：0.123007s] [吞吐率：8.13req/s] [内存消耗：2,736.04kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '20',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\tpcms\application\admin\view\adminlog\index.html [ array (
+  0 => 'Config',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=yzncms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-10-25T10:16:00+08:00 ] ::1 GET localhost/tpcms/public/index.php/admin/adminlog/index.html?page=1&limit=10
+[运行时间：0.110007s] [吞吐率：9.09req/s] [内存消耗：2,657.93kb] [文件加载：81]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/admin/adminlog/index/menuid/20.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=yzncms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.024002s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_adminlog` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_adminlog` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.020001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yzn_adminlog` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2018-10-25T10:16:01+08:00 ] ::1 GET localhost/tpcms/public/index.php/admin/auth_manager/index/menuid/17.html
+[运行时间：0.100006s] [吞吐率：10.00req/s] [内存消耗：2,750.19kb] [文件加载：83]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '17',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\tpcms\application\admin\view\auth_manager\index.html [ array (
+  0 => 'Config',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;dbname=yzncms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-10-25T10:16:01+08:00 ] ::1 GET localhost/tpcms/public/index.php/admin/auth_manager/index.html?page=1&limit=10
+[运行时间：0.076005s] [吞吐率：13.16req/s] [内存消耗：2,674.27kb] [文件加载：80]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/admin/auth_manager/index/menuid/17.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=yzncms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_auth_group` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_auth_group` WHERE  `module` = 'admin' ORDER BY `id` ASC [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-25T10:16:02+08:00 ] ::1 GET localhost/tpcms/public/index.php/admin/config/index/menuid/11.html
+[运行时间：0.234014s] [吞吐率：4.27req/s] [内存消耗：2,776.83kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '11',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\tpcms\application\admin\view\config\index.html [ array (
+  0 => 'Config',
+  1 => 'groupArray',
+  2 => 'group',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=yzncms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-10-25T10:16:02+08:00 ] ::1 GET localhost/tpcms/public/index.php/admin/config/index/group/base.html?page=1&limit=10
+[运行时间：0.129008s] [吞吐率：7.75req/s] [内存消耗：2,700.59kb] [文件加载：81]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/admin/config/index/menuid/11.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+  'group' => 'base',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=yzncms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_config` [ RunTime:0.030002s ]
+[ sql ] [ SQL ] SELECT `config`.`id`,`config`.`name`,`config`.`title`,`config`.`type`,`config`.`listorder`,`config`.`status`,`config`.`update_time`,field_type.title as ftitle FROM `yzn_config` `config` LEFT JOIN `yzn_field_type` `field_type` ON `field_type`.`name`=`config`.`type` WHERE  `group` = 'base' ORDER BY `config`.`listorder` ASC,`config`.`id` DESC [ RunTime:0.029001s ]
+---------------------------------------------------------------
+[ 2018-10-25T10:16:09+08:00 ] ::1 GET localhost/tpcms/public/index.php/admin/config/setting/menuid/13.html
+[运行时间：0.111007s] [吞吐率：9.01req/s] [内存消耗：2,792.57kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '13',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\tpcms\application\admin\view\config\setting.html [ array (
+  0 => 'Config',
+  1 => 'groupArray',
+  2 => 'fieldList',
+  3 => 'group',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=yzncms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_config` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT `name`,`title`,`remark`,`type`,`value`,`options` FROM `yzn_config` WHERE  `group` = 'base'  AND `status` = 1 ORDER BY `listorder`,`id` DESC [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-25T10:16:10+08:00 ] ::1 GET localhost/tpcms/public/index.php/attachment/ueditor/run.html?action=config&&noCache=1540433770252
+[运行时间：0.207012s] [吞吐率：4.83req/s] [内存消耗：2,686.16kb] [文件加载：81]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/admin/config/setting/menuid/13.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'config',
+  'noCache' => '1540433770252',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=yzncms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-10-25T10:16:14+08:00 ] ::1 GET localhost/tpcms/public/index.php/admin/menu/index/menuid/14.html
+[运行时间：0.156008s] [吞吐率：6.41req/s] [内存消耗：2,763.38kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '14',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\tpcms\application\admin\view\menu\index.html [ array (
+  0 => 'Config',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=yzncms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-10-25T10:16:14+08:00 ] ::1 GET localhost/tpcms/public/index.php/admin/menu/index.html?page=1&limit=10
+[运行时间：0.077004s] [吞吐率：12.99req/s] [内存消耗：2,707.37kb] [文件加载：82]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/admin/menu/index/menuid/14.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=yzncms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_menu` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_menu` ORDER BY `listorder`,`id` DESC [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-25T10:16:22+08:00 ] ::1 GET localhost/tpcms/public/index.php/attachment/attachments/index/menuid/23.html
+[运行时间：0.090005s] [吞吐率：11.11req/s] [内存消耗：2,745.88kb] [文件加载：83]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '23',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\tpcms\application\attachment\view\attachments\index.html [ array (
+  0 => 'Config',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=yzncms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-25T10:16:22+08:00 ] ::1 GET localhost/tpcms/public/index.php/attachment/attachments/index.html?page=1&limit=10
+[运行时间：0.100006s] [吞吐率：10.00req/s] [内存消耗：2,671.37kb] [文件加载：80]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/attachment/attachments/index/menuid/23.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=yzncms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_attachment` [ RunTime:0.028001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_attachment` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yzn_attachment` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-10-25T10:16:44+08:00 ] ::1 GET localhost/tpcms/public/index.php/attachment/attachments/index/menuid/23.html
+[运行时间：0.075004s] [吞吐率：13.33req/s] [内存消耗：2,746.13kb] [文件加载：83]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '23',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\tpcms\application\attachment\view\attachments\index.html [ array (
+  0 => 'Config',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;dbname=yzncms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-10-25T10:16:44+08:00 ] ::1 GET localhost/tpcms/public/index.php/attachment/attachments/index.html?page=1&limit=10
+[运行时间：0.077004s] [吞吐率：12.99req/s] [内存消耗：2,671.37kb] [文件加载：80]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/attachment/attachments/index/menuid/23.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=yzncms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_attachment` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_attachment` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yzn_attachment` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-25T10:17:04+08:00 ] ::1 GET localhost/tpcms/public/index.php/admin/auth_manager/creategroup.html
+[运行时间：0.102006s] [吞吐率：9.80req/s] [内存消耗：2,748.03kb] [文件加载：83]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/admin/auth_manager/index/menuid/17.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\tpcms\application\admin\view\auth_manager\edit_group.html [ array (
+  0 => 'Config',
+  1 => 'auth_group',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=yzncms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-25T10:17:05+08:00 ] ::1 GET localhost/tpcms/public/index.php/admin/auth_manager/index/menuid/17.html
+[运行时间：0.077004s] [吞吐率：12.99req/s] [内存消耗：2,750.50kb] [文件加载：83]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '17',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\tpcms\application\admin\view\auth_manager\index.html [ array (
+  0 => 'Config',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=yzncms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-25T10:17:05+08:00 ] ::1 GET localhost/tpcms/public/index.php/admin/auth_manager/index.html?page=1&limit=10
+[运行时间：0.069004s] [吞吐率：14.49req/s] [内存消耗：2,674.27kb] [文件加载：80]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/admin/auth_manager/index/menuid/17.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=yzncms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_auth_group` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_auth_group` WHERE  `module` = 'admin' ORDER BY `id` ASC [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-25T10:17:07+08:00 ] ::1 GET localhost/tpcms/public/index.php/admin/auth_manager/access.html?title=%E8%B6%85%E7%BA%A7%E7%AE%A1%E7%90%86%E5%91%98&group_id=1
+[运行时间：0.218013s] [吞吐率：4.59req/s] [内存消耗：2,891.31kb] [文件加载：88]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/admin/auth_manager/index/menuid/17.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'title' => '超级管理员',
+  'group_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\tpcms\application\admin\view\auth_manager\managergroup.html [ array (
+  0 => 'Config',
+  1 => 'group_id',
+  2 => 'json',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=yzncms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_menu` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_menu` ORDER BY `listorder` ASC,`id` ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_auth_rule` [ RunTime:0.034002s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_auth_rule` WHERE  `type` IN (1,2) ORDER BY `name` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] UPDATE `yzn_auth_rule`  SET `name` = 'admin/addons/index' , `title` = '扩展' , `module` = 'admin' , `type` = 2 , `status` = 1 , `id` = 148  WHERE  `id` = 148 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `yzn_auth_rule`  SET `name` = 'admin/adminlog/index' , `title` = '管理日志' , `module` = 'admin' , `type` = 1 , `status` = 1 , `id` = 156  WHERE  `id` = 156 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `yzn_auth_rule`  SET `name` = 'admin/authManager/index' , `title` = '角色管理' , `module` = 'admin' , `type` = 1 , `status` = 1 , `id` = 153  WHERE  `id` = 153 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `yzn_auth_rule`  SET `name` = 'admin/config/index' , `title` = '配置管理' , `module` = 'admin' , `type` = 1 , `status` = 1 , `id` = 149  WHERE  `id` = 149 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `yzn_auth_rule`  SET `name` = 'admin/config/setting' , `title` = '网站设置' , `module` = 'admin' , `type` = 1 , `status` = 1 , `id` = 150  WHERE  `id` = 150 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `yzn_auth_rule`  SET `name` = 'admin/index/index' , `title` = '首页' , `module` = 'admin' , `type` = 2 , `status` = 1 , `id` = 154  WHERE  `id` = 154 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `yzn_auth_rule`  SET `name` = 'admin/main/index' , `title` = '控制面板' , `module` = 'admin' , `type` = 2 , `status` = 1 , `id` = 155  WHERE  `id` = 155 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `yzn_auth_rule`  SET `name` = 'admin/manager/index' , `title` = '管理员管理' , `module` = 'admin' , `type` = 1 , `status` = 1 , `id` = 152  WHERE  `id` = 152 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `yzn_auth_rule`  SET `name` = 'admin/menu/index' , `title` = '菜单管理' , `module` = 'admin' , `type` = 1 , `status` = 1 , `id` = 151  WHERE  `id` = 151 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `yzn_auth_rule`  SET `name` = 'admin/module/index' , `title` = '模块' , `module` = 'admin' , `type` = 2 , `status` = 1 , `id` = 147  WHERE  `id` = 147 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `yzn_auth_rule`  SET `name` = 'admin/setting/index' , `title` = '设置' , `module` = 'admin' , `type` = 2 , `status` = 1 , `id` = 146  WHERE  `id` = 146 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `yzn_auth_rule`  SET `name` = 'attachment/attachments/index' , `title` = '附件管理' , `module` = 'attachment' , `type` = 1 , `status` = 1 , `id` = 157  WHERE  `id` = 157 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_menu` ORDER BY `listorder` ASC,`id` ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_auth_group` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT `rules` FROM `yzn_auth_group` WHERE  `status` <> 0  AND `id` = 1  AND `type` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name`,`id` FROM `yzn_auth_rule` WHERE  `status` = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-25T10:17:15+08:00 ] ::1 POST localhost/tpcms/public/index.php/admin/auth_manager/writegroup.html
+[运行时间：0.091005s] [吞吐率：10.99req/s] [内存消耗：2,696.25kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/admin/auth_manager/access.html?title=%E8%B6%85%E7%BA%A7%E7%AE%A1%E7%90%86%E5%91%98&group_id=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '11',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'rules' => '',
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\tpl/dispatch_jump.tpl [ array (
+  0 => 'Config',
+  1 => 'code',
+  2 => 'msg',
+  3 => 'data',
+  4 => 'url',
+  5 => 'wait',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=yzncms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_auth_group` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] UPDATE `yzn_auth_group`  SET `rules` = '' , `module` = 'admin' , `type` = 1  WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_adminlog` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] INSERT INTO `yzn_adminlog` (`uid` , `status` , `info` , `get` , `ip` , `create_time`) VALUES (1 , 1 , '提示语:操作成功!' , '/tpcms/public/index.php/admin/auth_manager/writegroup.html' , 0 , 1540433835) [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-10-25T10:17:16+08:00 ] ::1 GET localhost/tpcms/public/index.php/admin/auth_manager/access.html?title=%E8%B6%85%E7%BA%A7%E7%AE%A1%E7%90%86%E5%91%98&group_id=1
+[运行时间：0.119007s] [吞吐率：8.40req/s] [内存消耗：2,891.31kb] [文件加载：88]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/admin/auth_manager/writegroup.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'title' => '超级管理员',
+  'group_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\tpcms\application\admin\view\auth_manager\managergroup.html [ array (
+  0 => 'Config',
+  1 => 'group_id',
+  2 => 'json',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=yzncms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_menu` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_menu` ORDER BY `listorder` ASC,`id` ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_auth_rule` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_auth_rule` WHERE  `type` IN (1,2) ORDER BY `name` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `yzn_auth_rule`  SET `name` = 'admin/addons/index' , `title` = '扩展' , `module` = 'admin' , `type` = 2 , `status` = 1 , `id` = 148  WHERE  `id` = 148 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] UPDATE `yzn_auth_rule`  SET `name` = 'admin/adminlog/index' , `title` = '管理日志' , `module` = 'admin' , `type` = 1 , `status` = 1 , `id` = 156  WHERE  `id` = 156 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `yzn_auth_rule`  SET `name` = 'admin/authManager/index' , `title` = '角色管理' , `module` = 'admin' , `type` = 1 , `status` = 1 , `id` = 153  WHERE  `id` = 153 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `yzn_auth_rule`  SET `name` = 'admin/config/index' , `title` = '配置管理' , `module` = 'admin' , `type` = 1 , `status` = 1 , `id` = 149  WHERE  `id` = 149 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `yzn_auth_rule`  SET `name` = 'admin/config/setting' , `title` = '网站设置' , `module` = 'admin' , `type` = 1 , `status` = 1 , `id` = 150  WHERE  `id` = 150 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `yzn_auth_rule`  SET `name` = 'admin/index/index' , `title` = '首页' , `module` = 'admin' , `type` = 2 , `status` = 1 , `id` = 154  WHERE  `id` = 154 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `yzn_auth_rule`  SET `name` = 'admin/main/index' , `title` = '控制面板' , `module` = 'admin' , `type` = 2 , `status` = 1 , `id` = 155  WHERE  `id` = 155 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `yzn_auth_rule`  SET `name` = 'admin/manager/index' , `title` = '管理员管理' , `module` = 'admin' , `type` = 1 , `status` = 1 , `id` = 152  WHERE  `id` = 152 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `yzn_auth_rule`  SET `name` = 'admin/menu/index' , `title` = '菜单管理' , `module` = 'admin' , `type` = 1 , `status` = 1 , `id` = 151  WHERE  `id` = 151 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `yzn_auth_rule`  SET `name` = 'admin/module/index' , `title` = '模块' , `module` = 'admin' , `type` = 2 , `status` = 1 , `id` = 147  WHERE  `id` = 147 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `yzn_auth_rule`  SET `name` = 'admin/setting/index' , `title` = '设置' , `module` = 'admin' , `type` = 2 , `status` = 1 , `id` = 146  WHERE  `id` = 146 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `yzn_auth_rule`  SET `name` = 'attachment/attachments/index' , `title` = '附件管理' , `module` = 'attachment' , `type` = 1 , `status` = 1 , `id` = 157  WHERE  `id` = 157 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_menu` ORDER BY `listorder` ASC,`id` ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_auth_group` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT `rules` FROM `yzn_auth_group` WHERE  `status` <> 0  AND `id` = 1  AND `type` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name`,`id` FROM `yzn_auth_rule` WHERE  `status` = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-25T10:19:33+08:00 ] ::1 GET localhost/tpcms/public/index.php/admin/auth_manager/index/menuid/17.html
+[运行时间：0.088005s] [吞吐率：11.36req/s] [内存消耗：2,750.50kb] [文件加载：83]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '17',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\tpcms\application\admin\view\auth_manager\index.html [ array (
+  0 => 'Config',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=yzncms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-25T10:19:33+08:00 ] ::1 GET localhost/tpcms/public/index.php/admin/auth_manager/index.html?page=1&limit=10
+[运行时间：0.070004s] [吞吐率：14.28req/s] [内存消耗：2,674.21kb] [文件加载：80]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/admin/auth_manager/index/menuid/17.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=yzncms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_auth_group` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_auth_group` WHERE  `module` = 'admin' ORDER BY `id` ASC [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-25T10:19:47+08:00 ] ::1 GET localhost/tpcms/public/index.php/admin/adminlog/deletelog.html
+[运行时间：0.095005s] [吞吐率：10.53req/s] [内存消耗：2,631.67kb] [文件加载：82]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/admin/adminlog/index/menuid/20.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=yzncms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_adminlog` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] DELETE FROM `yzn_adminlog` WHERE  `create_time` <= 1537841987 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `yzn_adminlog` (`uid` , `status` , `info` , `get` , `ip` , `create_time`) VALUES (1 , 1 , '提示语:删除日志成功！' , '/tpcms/public/index.php/admin/adminlog/deletelog.html' , 0 , 1540433987) [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-10-25T10:19:49+08:00 ] ::1 GET localhost/tpcms/public/index.php/admin/adminlog/index/menuid/20.html
+[运行时间：0.089006s] [吞吐率：11.24req/s] [内存消耗：2,736.30kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/admin/adminlog/index/menuid/20.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '20',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\tpcms\application\admin\view\adminlog\index.html [ array (
+  0 => 'Config',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=yzncms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-10-25T10:19:49+08:00 ] ::1 GET localhost/tpcms/public/index.php/admin/adminlog/index.html?page=1&limit=10
+[运行时间：0.070004s] [吞吐率：14.28req/s] [内存消耗：2,657.93kb] [文件加载：81]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/admin/adminlog/index/menuid/20.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=yzncms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_adminlog` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_adminlog` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yzn_adminlog` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-25T10:19:55+08:00 ] ::1 GET localhost/tpcms/public/index.php/admin/adminlog/index.html?page=1&limit=10
+[运行时间：0.079005s] [吞吐率：12.66req/s] [内存消耗：2,657.93kb] [文件加载：81]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/admin/adminlog/index/menuid/20.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001001s ] mysql:host=127.0.0.1;dbname=yzncms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_adminlog` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_adminlog` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yzn_adminlog` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-10-25T10:20:15+08:00 ] ::1 GET localhost/tpcms/public/index.php/admin/config/setting/group/system.html
+[运行时间：0.092006s] [吞吐率：10.87req/s] [内存消耗：2,784.61kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/admin/config/setting/menuid/13.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'group' => 'system',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\tpcms\application\admin\view\config\setting.html [ array (
+  0 => 'Config',
+  1 => 'groupArray',
+  2 => 'fieldList',
+  3 => 'group',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=yzncms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_config` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `name`,`title`,`remark`,`type`,`value`,`options` FROM `yzn_config` WHERE  `group` = 'system'  AND `status` = 1 ORDER BY `listorder`,`id` DESC [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-25T10:20:16+08:00 ] ::1 GET localhost/tpcms/public/index.php/admin/config/setting/group/upload.html
+[运行时间：0.088005s] [吞吐率：11.36req/s] [内存消耗：2,784.26kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/admin/config/setting/group/system.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'group' => 'upload',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\tpcms\application\admin\view\config\setting.html [ array (
+  0 => 'Config',
+  1 => 'groupArray',
+  2 => 'fieldList',
+  3 => 'group',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=yzncms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_config` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `name`,`title`,`remark`,`type`,`value`,`options` FROM `yzn_config` WHERE  `group` = 'upload'  AND `status` = 1 ORDER BY `listorder`,`id` DESC [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-25T10:20:18+08:00 ] ::1 GET localhost/tpcms/public/index.php/admin/config/setting/group/develop.html
+[运行时间：0.083005s] [吞吐率：12.05req/s] [内存消耗：2,784.26kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/admin/config/setting/group/upload.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'group' => 'develop',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\tpcms\application\admin\view\config\setting.html [ array (
+  0 => 'Config',
+  1 => 'groupArray',
+  2 => 'fieldList',
+  3 => 'group',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=yzncms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_config` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT `name`,`title`,`remark`,`type`,`value`,`options` FROM `yzn_config` WHERE  `group` = 'develop'  AND `status` = 1 ORDER BY `listorder`,`id` DESC [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-10-25T10:20:18+08:00 ] ::1 GET localhost/tpcms/public/index.php/admin/config/setting/group/upload.html
+[运行时间：0.094006s] [吞吐率：10.64req/s] [内存消耗：2,784.26kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/admin/config/setting/group/develop.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'group' => 'upload',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\tpcms\application\admin\view\config\setting.html [ array (
+  0 => 'Config',
+  1 => 'groupArray',
+  2 => 'fieldList',
+  3 => 'group',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=yzncms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_config` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT `name`,`title`,`remark`,`type`,`value`,`options` FROM `yzn_config` WHERE  `group` = 'upload'  AND `status` = 1 ORDER BY `listorder`,`id` DESC [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-25T10:20:19+08:00 ] ::1 GET localhost/tpcms/public/index.php/admin/config/setting/group/base.html
+[运行时间：0.087005s] [吞吐率：11.49req/s] [内存消耗：2,793.27kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/admin/config/setting/group/upload.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'group' => 'base',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\tpcms\application\admin\view\config\setting.html [ array (
+  0 => 'Config',
+  1 => 'groupArray',
+  2 => 'fieldList',
+  3 => 'group',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=yzncms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_config` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT `name`,`title`,`remark`,`type`,`value`,`options` FROM `yzn_config` WHERE  `group` = 'base'  AND `status` = 1 ORDER BY `listorder`,`id` DESC [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-10-25T10:20:19+08:00 ] ::1 GET localhost/tpcms/public/index.php/attachment/ueditor/run.html?action=config&&noCache=1540434019765
+[运行时间：0.066004s] [吞吐率：15.15req/s] [内存消耗：2,686.16kb] [文件加载：81]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/admin/config/setting/group/base.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'config',
+  'noCache' => '1540434019765',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=yzncms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-25T10:20:20+08:00 ] ::1 GET localhost/tpcms/public/index.php/admin/config/setting/group/system.html
+[运行时间：0.084004s] [吞吐率：11.90req/s] [内存消耗：2,785.11kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/admin/config/setting/group/base.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'group' => 'system',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\tpcms\application\admin\view\config\setting.html [ array (
+  0 => 'Config',
+  1 => 'groupArray',
+  2 => 'fieldList',
+  3 => 'group',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=yzncms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_config` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT `name`,`title`,`remark`,`type`,`value`,`options` FROM `yzn_config` WHERE  `group` = 'system'  AND `status` = 1 ORDER BY `listorder`,`id` DESC [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-25T10:20:21+08:00 ] ::1 GET localhost/tpcms/public/index.php/admin/config/setting/group/system.html
+[运行时间：0.093005s] [吞吐率：10.75req/s] [内存消耗：2,785.11kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/admin/config/setting/group/system.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'group' => 'system',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\tpcms\application\admin\view\config\setting.html [ array (
+  0 => 'Config',
+  1 => 'groupArray',
+  2 => 'fieldList',
+  3 => 'group',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=yzncms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_config` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT `name`,`title`,`remark`,`type`,`value`,`options` FROM `yzn_config` WHERE  `group` = 'system'  AND `status` = 1 ORDER BY `listorder`,`id` DESC [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-25T10:20:22+08:00 ] ::1 GET localhost/tpcms/public/index.php/admin/config/setting/group/base.html
+[运行时间：0.096006s] [吞吐率：10.42req/s] [内存消耗：2,793.27kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/admin/config/setting/group/system.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'group' => 'base',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\tpcms\application\admin\view\config\setting.html [ array (
+  0 => 'Config',
+  1 => 'groupArray',
+  2 => 'fieldList',
+  3 => 'group',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=yzncms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_config` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT `name`,`title`,`remark`,`type`,`value`,`options` FROM `yzn_config` WHERE  `group` = 'base'  AND `status` = 1 ORDER BY `listorder`,`id` DESC [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-25T10:20:22+08:00 ] ::1 GET localhost/tpcms/public/index.php/attachment/ueditor/run.html?action=config&&noCache=1540434022869
+[运行时间：0.066003s] [吞吐率：15.15req/s] [内存消耗：2,686.16kb] [文件加载：81]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\tpcms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-65b66e1f=f2e4bfc4-4c15-4c90-afab-cf1264a7518d; UM_distinctid=166387dbcb01f3-02b79a90e855a-5b193413-100200-166387dbcb144; CNZZDATA1260729681=1006152530-1538546061-%7C1539311619; pgv_pvi=9127459840; pgv_si=s254419968; PHPSESSID=br0pphe17adrnpl4nckkvkvjei',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpcms/public/index.php/admin/config/setting/group/base.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'config',
+  'noCache' => '1540434022869',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;dbname=yzncms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
